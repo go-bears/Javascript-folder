@@ -1,7 +1,8 @@
+var orangePrice = prompt("How much is one orange?");   
 var orangeCost = function(price) {
-    var orangePrice = prompt("How much is one orange?");   
     val = (orangePrice * 5);
     console.log("Five oranges cost" + " " + val);
 };
 
 orangeCost("price");
+
