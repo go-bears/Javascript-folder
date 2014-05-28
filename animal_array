@@ -14,6 +14,67 @@ noiseArray.unshift('moo'); //add elements to array at beginning
 //noiseArray.shift('baahbaah'); //removes from the front of the array
 noiseArray[noiseArray.length-1] = 'squeak'; //[referencing the length of the array in order to add element to the end.]
 
+//Use this file to implement Part One of your project
+
+//JS fundamental lesson 1b
+
+var animal = {};
+animal["tagline"] = "mammals are great";
+animal.noises = "null";
+
+var noiseArray = [];
+noiseArray = ["arf", "meow"]; //adds to array via native method
+noiseArray.push('beep'); //add elements to array at end
+noiseArray.unshift('moo'); //add elements to array at beginning
+
+// noiseArray.shift('baahbaah'); //removes from the front of the array
+noiseArray[noiseArray.length] = 'squeak'; //[referencing the length of the array in order to add element to the end.]
+
+
+//js fundamentals lesson 1c
+var noizes = "noises";
+animal[noizes];
+noizes = noiseArray;
+
+
+
+
+//js fundamentals lesson 2
+var friendlist = {};
+
+
+
+var quackers = {species: 'duck', tagline: 'Afflack', noises:
+['quack', 'honk', 'sneeze', 'growl']};
+var barkers = {species: 'dog', tagline: 'got scooby snacks?',
+noises: 'whoah', 'eh': 'um'};
+var meowers = {species: 'cat', tagline: 'where have you been!',
+noises: 'meow'};
+
+animals.push(quackers);
+
+var friendlist = {};
+var friends = [];
+
+friends.push(animals);
+
+friendlist["species"] =  [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
