@@ -1,0 +1,27 @@
+//Use this file to implement Part One of your project
+
+//JS fundamental lesson 1a
+
+var animals = {};
+animals.species = "mammal";
+animals["tagline"] = "mammals are great";
+animals.noises = "null";
+
+var noiseArray = [];
+noiseArray = ["arf", "meow"]; //adds to array via native method
+noiseArray.push('beep'); //add elements to array at end
+noiseArray.unshift('moo'); //add elements to array at beginning
+//noiseArray.shift('baahbaah'); //removes from the front of the array
+noiseArray[noiseArray.length-1] = 'squeak'; //[referencing the length of the array in order to add element to the end.]
+
+
+
+
+
+
+
+
+
+
+
+
